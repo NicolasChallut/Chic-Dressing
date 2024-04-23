@@ -1,0 +1,4 @@
+04-22-2024 @ 11:28:11 - Unable to detect valid feed configuration: No catalog ID
+04-22-2024 @ 18:04:53 - Unable to detect valid feed configuration: No catalog ID
+2024-04-22T18:19:49+00:00 NOTICE Starting upgrade to v3.1.13 CONTEXT: {"_legacy":true}
+2024-04-22T18:19:49+00:00 NOTICE Upgrade to v3.1.13 complete CONTEXT: {"_legacy":true}

@@ -1,0 +1,1 @@
+2024/04/21 13:04:12 [error] 74157#0: *202 directory index of "/Users/Kikomac/Local Sites/chic-dressing/app/public/wp-content/cache/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/cache/ HTTP/1.0", host: "chic-dressing.local"

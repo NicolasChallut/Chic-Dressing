@@ -2,14 +2,108 @@
 # This file is distributed under the same license as the Plugins - SEOPress &#8211; On-site SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-03-11 09:25:15+0000\n"
+"PO-Revision-Date: 2024-04-29 14:01:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - SEOPress &#8211; On-site SEO - Stable (latest release)\n"
+
+#: src/Services/ContentAnalysis/GetContent.php:65
+#: src/Services/I18nUniversalMetabox.php:371
+msgid "No schemas found in the source code of this page. Get rich snippets in Google Search results and improve your visibility by adding structured data types (schemas) to your page."
+msgstr "Aucun schéma n‘a été trouvé dans le code source de cette page. Bénéficiez d‘extraits enrichis dans les résultats de recherche Google et améliorez votre visibilité en ajoutant des types de données structurées (schémas) à votre page."
+
+#: inc/admin/blocks/get-started.php:23
+msgid "Setup in 5 mins!"
+msgstr "Configuré en 5 minutes !"
+
+#: src/Services/Admin/Notifications/Notifications.php:222
+msgid "SEOPress is fully compatible with WPML. If you are looking to translate SEOPress global settings, read our guide by clicking the link below."
+msgstr "SEOPress est entièrement compatible avec WPML. Si vous cherchez à traduire les réglages généraux de SEOPress, lisez notre guide en cliquant sur le lien ci-dessous."
+
+#: src/Services/Admin/Notifications/Notifications.php:221
+msgid "WPML plugin has been detected!"
+msgstr "L'extension WPML a été détectée !"
+
+#: inc/admin/wizard/admin-wizard.php:583
+msgid "We have detected that your server configuration may pose problems for running WordPress and our plugins."
+msgstr "Nous avons détecté que la configuration de votre serveur peut poser des problèmes pour faire fonctionner WordPress et nos extensions."
+
+#: inc/admin/wizard/admin-wizard.php:582
+msgid "Requirements"
+msgstr "Prérequis"
+
+#: inc/admin/wizard/admin-wizard.php:576
+msgid "Please contact your host to increase this value to at least 256M."
+msgstr "Veuillez contacter votre hébergeur pour augmenter cette valeur à au moins 256M."
+
+#: inc/admin/wizard/admin-wizard.php:575
+msgid "PHP memory limit is too low."
+msgstr "La limite de mémoire PHP est trop petite."
+
+#: inc/admin/wizard/admin-wizard.php:568
+msgid "PHP post max size is too low."
+msgstr "La taille maximale des posts PHP est trop petite."
+
+#: inc/admin/wizard/admin-wizard.php:562 inc/admin/wizard/admin-wizard.php:569
+msgid "Please contact your host to increase this value to at least 50M."
+msgstr "Veuillez contacter votre hébergeur pour augmenter cette valeur à au moins 50M."
+
+#: inc/admin/wizard/admin-wizard.php:561
+msgid "PHP upload max filesize is too low."
+msgstr "La taille maximale des fichiers PHP téléversable est trop petite."
+
+#: inc/admin/settings/Advanced.php:153
+msgid "Remove Emoji support"
+msgstr "Retirer la prise en charge des emojis"
+
+#: inc/admin/sections/Sitemaps.php:204
+msgid "Terms without any associated posts will not be listed in your XML sitemaps to prevent 404 errors."
+msgstr "Les termes qui ne sont pas associés à des articles ne seront pas répertoriés dans vos plans de site XML afin d‘éviter les erreurs 404."
+
+#. translators: %1$s: <code>public => true</code>, %2$s: <code>show_ui =>
+#. true</code>
+#: inc/admin/sections/Sitemaps.php:201 inc/admin/sections/Titles.php:98
+msgid "Only taxonomies registered with the %1$s and %2$s arguments will be listed here."
+msgstr "Uniquement les taxonomies enregistrées avec les arguments %1$s et %2$s seront listées ici."
+
+#. translators: %1$s: <code>public => true</code>, %2$s: <code>show_ui =>
+#. true</code>
+#: inc/admin/sections/Sitemaps.php:176 inc/admin/sections/Titles.php:59
+msgid "Only post types registered with the %1$s and %2$s arguments will be listed here."
+msgstr "Uniquement les types de publication enregistrés avec les arguments %1$s et %2$s seront listés ici."
+
+#: inc/admin/sections/Advanced.php:47
+msgid "Easily validate your site with search engines webmaster tools."
+msgstr "Validez facilement votre site avec les outils de webmaster des moteurs de recherche."
+
+#: inc/admin/sections/Advanced.php:34
+msgid "Clean your source code to improve performance and your crawl budget."
+msgstr "Nettoyez votre code source pour améliorer les performances et votre budget d‘indexation."
+
+#: inc/admin/sections/Advanced.php:16 inc/admin/sections/Advanced.php:44
+msgid "Search engines validation"
+msgstr "Validation des moteurs de recherche"
+
+#: inc/admin/sections/Advanced.php:15 inc/admin/sections/Advanced.php:31
+msgid "Crawling Optimization"
+msgstr "Optimisation de l‘indexation"
+
+#: inc/admin/callbacks/Analytics.php:604 inc/admin/callbacks/Analytics.php:627
+#: inc/admin/callbacks/Analytics.php:661
+msgid "Only users with %s capability can edit this field."
+msgstr "Seuls les comptes avec la permission %s peuvent modifier ce champ."
+
+#: inc/admin/callbacks/Advanced.php:433
+msgid "Only older web browsers will not see your emojis."
+msgstr "Seuls les navigateurs plus anciens ne verront pas vos emojis."
+
+#: inc/admin/callbacks/Advanced.php:429
+msgid "Remove Emoji scripts in your source code to speed up your site performance"
+msgstr "Retirer les scripts Emoji dans votre code source pour accélérer les performances de votre site."
 
 #: src/Tags/Schema/SocialAccount/Twitter.php:15
 msgid "X (ex-Twitter) URL"
@@ -2234,11 +2328,11 @@ msgstr "Sélectionnez les moteurs de recherche"
 msgid "Note that we scan all your source code, it means, some missing alternative texts of images might be located in your header, sidebar or footer."
 msgstr "Notez que nous analysons l’ensemble de votre code source, ce qui signifie que certains textes alternatifs ou images manquantes peuvent se trouver dans votre en-tête, votre colonne latérale ou votre pied de page."
 
-#: inc/functions/options-instant-indexing.php:246
+#: inc/functions/options-instant-indexing.php:255
 msgid "Google API key is missing"
 msgstr "La clé de l‘API de Google est manquante"
 
-#: inc/functions/options-instant-indexing.php:211
+#: inc/functions/options-instant-indexing.php:220
 msgid "Bing API key is missing"
 msgstr "La clé de l‘API de Bing est manquante"
 
@@ -2328,6 +2422,7 @@ msgid "Forbidden: In case of key not valid (e.g. key not found, file found but k
 msgstr "Interdit : en cas de clé non valide (p. ex. : clé non trouvée, fichier trouvé mais clé non présente dans le fichier)"
 
 #: inc/admin/callbacks/InstantIndexing.php:134
+#: inc/functions/options-instant-indexing.php:213
 msgid "Bad request: Invalid format"
 msgstr "Mauvaise demande : Format non valide"
 
@@ -2682,15 +2777,15 @@ msgstr "Activer la redirection ?"
 
 #. translators: %s: "Custom Post Types" or "Custom Taxonomies", %s: "title" or
 #. "description"
-#: seopress-functions.php:488
+#: seopress-functions.php:495
 msgid "Some <strong>%s</strong> have no <strong>meta %s</strong> set! We strongly encourage you to add one by filling in the fields below."
 msgstr "Certains <strong>%s</strong> n‘ont pas de <strong>méta %s</strong> définie ! Nous vous encourageons fortement à en ajouter un•e dans les champs ci-dessous."
 
-#: seopress-functions.php:442
+#: seopress-functions.php:449
 msgid "Custom Taxonomies"
 msgstr "Taxonomies personnalisées"
 
-#: seopress-functions.php:438
+#: seopress-functions.php:445
 msgid "Custom Post Types"
 msgstr "Types de publication personnalisés"
 
@@ -2977,7 +3072,7 @@ msgstr "Plan de site XML - HTML"
 #: inc/admin/admin-pages/Advanced.php:52 inc/admin/admin-pages/Analytics.php:69
 #: inc/admin/admin-pages/InstantIndexing.php:51
 #: inc/admin/admin-pages/Sitemaps.php:43 inc/admin/admin-pages/Social.php:43
-#: inc/admin/admin-pages/Titles.php:54 seopress-functions.php:794
+#: inc/admin/admin-pages/Titles.php:54 seopress-functions.php:801
 msgid "Save changes"
 msgstr "Enregistrer les modifications"
 
@@ -3168,7 +3263,7 @@ msgstr "Bouton secondaire"
 msgid "Text color on hover: "
 msgstr "Couleur du texte : au survol"
 
-#: inc/admin/callbacks/Analytics.php:427 inc/admin/callbacks/Analytics.php:512
+#: inc/admin/callbacks/Analytics.php:427 inc/admin/callbacks/Analytics.php:497
 msgid "Background color on hover: "
 msgstr "Couleur d’arrière-plan au survol :"
 
@@ -3185,7 +3280,7 @@ msgid "Link color: "
 msgstr "Couleur du lien :"
 
 #: inc/admin/callbacks/Analytics.php:373 inc/admin/callbacks/Analytics.php:442
-#: inc/admin/callbacks/Analytics.php:497
+#: inc/admin/callbacks/Analytics.php:512
 msgid "Text color: "
 msgstr "Couleur du texte :"
 
@@ -3871,11 +3966,11 @@ msgstr "p. ex. : Mon nom d’entreprise"
 msgid "Change the color of the cookie bar secondary button hover"
 msgstr "Changer la couleur au survol du bouton secondaire de la barre des cookies"
 
-#: inc/admin/callbacks/Analytics.php:517
+#: inc/admin/callbacks/Analytics.php:502
 msgid "Change the color of the cookie bar secondary button"
 msgstr "Changer la couleur du bouton secondaire de la barre des cookies"
 
-#: inc/admin/callbacks/Analytics.php:502
+#: inc/admin/callbacks/Analytics.php:517
 msgid "Change the color of the cookie bar secondary button hover background"
 msgstr "Changer la couleur d’arrière-plan au survol du bouton secondaire de la barre des cookies"
 
@@ -4168,10 +4263,6 @@ msgstr "Gérez tous vos titres et méta pour les types de publication, taxonomie
 msgid "Analysis in progress..."
 msgstr "Analyse en cours..."
 
-#: inc/admin/blocks/get-started.php:23
-msgid "Get started"
-msgstr "Premiers pas"
-
 #: src/Services/ContentAnalysis/RenderContentAnalysis.php:38
 #: src/Services/I18nUniversalMetabox.php:23
 msgid "Close"
@@ -4237,11 +4328,6 @@ msgstr "La dernière date de modification de cet article est inférieure à 1 an
 #: src/Services/I18nUniversalMetabox.php:231
 msgid "This post is a little old!"
 msgstr "Cet article est un peu ancien !"
-
-#: src/Services/ContentAnalysis/GetContent.php:65
-#: src/Services/I18nUniversalMetabox.php:371
-msgid "No schemas found in the source code of this page."
-msgstr "Aucun schéma trouvé dans le code source de cette page."
 
 #: src/Services/ContentAnalysis/GetContent.php:53
 #: src/Services/I18nUniversalMetabox.php:367
@@ -4911,15 +4997,15 @@ msgstr "Paramètres de requête"
 msgid "One of the best SEO plugins for WordPress."
 msgstr "L’une des meilleures extensions SEO pour WordPress."
 
-#: seopress-functions.php:545
+#: seopress-functions.php:552
 msgid "URL rewriting is NOT enabled on your site. Select a permalink structure that is optimized for SEO (NOT Plain)."
 msgstr "La réécriture d’URL n’est pas activée sur votre site. Sélectionnez une structure de permalien optimisée pour le référencement (non standard)."
 
-#: seopress-functions.php:515
+#: seopress-functions.php:522
 msgid "Do NOT change your permalink structure on a production site. Changing URLs can severely damage your SEO."
 msgstr "Ne changez pas la structure de vos permaliens sur un site en production. Changer les URL peut sérieusement endommager votre SEO."
 
-#: seopress-functions.php:514 seopress-functions.php:544
+#: seopress-functions.php:521 seopress-functions.php:551
 msgid "WARNING"
 msgstr "AVERTISSEMENT"
 

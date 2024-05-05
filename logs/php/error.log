@@ -7723,3 +7723,4 @@ Stack trace:
 #12 /Users/Kikomac/Local Sites/chic-dressing/app/public/wp-cron.php(46): require_once('/Users/Kikomac/...')
 #13 {main}
   thrown in /Users/Kikomac/Local Sites/chic-dressing/app/public/wp-content/plugins/wysija-newsletters/helpers/file.php on line 161
+[02-May-2024 11:46:08 UTC] Erreur d’événement de replanification de tâche pour le crochet elementor_1_elementor_updater_cron. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
